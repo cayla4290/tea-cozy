@@ -7,7 +7,7 @@ body {
   opacity: 0.9;
   text-align: center;
   display: inline-flex;
-  width: 1200px;
+  width: 100%;
   flex-direction: column;
   justify-content: center;
 }
@@ -25,13 +25,14 @@ header .container {
   justify-content: space-between;
   top: 0px;
   left: 0px;
+  z-index: 1;
+  background-color: black;
 }
 
 .header-logo img {
   height: 50px;
   margin-left: 10px;
 }
-
 
 .header-nav {
   /*text-decoration: underline;*/
@@ -41,6 +42,7 @@ header .container {
 nav span {
   padding-left: 20px;
   font-weight: lighter;
+  display: inline-block;
 }
 
 a:link {
@@ -50,11 +52,13 @@ a:link {
 main {
   top: 69px;
   position: relative;
+  width: 1200px;
 }
 
 .part-1 {
   height: 700px;
   width: 100%;
+  background-image: url("img-mission-background.jpg");
 }
 
 footer {

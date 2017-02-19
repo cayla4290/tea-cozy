@@ -68,6 +68,32 @@ main {
   height: 700px;
   width: 100%;
   background-image: url("img-mission-background.jpg");
+  position: relative;
+  display: inline-flex;
+}
+
+.part-1 div {
+  width: 100%;
+  background-color: black;
+  position: relative;
+  align-self: center;
+}
+
+.part-2 {
+  width: 1000px;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.part-2 .teas-of-the-month {
+  width: 100%;
+  background-color: black;
+}
+
+.part-2 .tea-types {
+  width: 100%
+  display: inline-flex;
+  flex-direction: row;
 }
 
 footer {

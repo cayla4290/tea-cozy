@@ -13,9 +13,13 @@ body {
   margin: 0 auto;
 }
 
+/*
+
 div {
     border: 1px white solid;
 }
+
+*/
 
 header .container {
   display: inline-flex;
@@ -88,12 +92,32 @@ main {
 .part-2 .teas-of-the-month {
   width: 100%;
   background-color: black;
+  margin-top: 100px;
 }
 
 .part-2 .tea-types {
-  width: 100%
   display: inline-flex;
   flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+
+.part-2 .tea-types img {
+  height: 200px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.part-2 .tea-types .spiced-rum {
+  margin: 0 50px;
+}
+
+.part-2 .tea-types .myrtle-ave {
+  margin-right: 50px;
 }
 
 footer {

@@ -10,6 +10,11 @@ body {
   width: 100%;
   flex-direction: column;
   justify-content: center;
+  margin: 0 auto;
+}
+
+div {
+    border: 1px white solid;
 }
 
 header .container {
@@ -27,6 +32,7 @@ header .container {
   left: 0px;
   z-index: 1;
   background-color: black;
+  margin: 0 auto;
 }
 
 .header-logo img {
@@ -50,9 +56,12 @@ a:link {
 }
 
 main {
-  top: 69px;
+  top: 57px;
   position: relative;
   width: 1200px;
+  margin: 0 auto;
+  align-items: flex-start;
+  height: 100%;
 }
 
 .part-1 {

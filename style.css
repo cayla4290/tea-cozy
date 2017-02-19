@@ -156,6 +156,21 @@ main {
   margin: 0 40px;
 }
 
-footer {
+/*
 
+footer div {
+    border: 1px white solid;
+}
+
+*/
+
+footer {
+  background-color: black;
+  height: 220px;
+  position: relative;
+}
+
+footer .copyright {
+  text-align: left;
+  padding-left: 20px;
 }
